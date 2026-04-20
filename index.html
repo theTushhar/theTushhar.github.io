@@ -1,0 +1,1131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tushar Gupta - Full Stack Developer & AI Engineer Portfolio"
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, AI Engineer, Node.js, React.js, Python, LangChain"
+    />
+    <meta name="author" content="Tushar Gupta" />
+
+    <!-- Open Graph for social sharing -->
+    <meta
+      property="og:title"
+      content="Tushar Gupta | Full Stack Developer & AI Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio of Tushar Gupta - Building scalable backend systems and AI-powered platforms"
+    />
+    <meta property="og:image" content="assets/images/profile.jpg" />
+    <meta property="og:url" content="https://theTushhar.github.io" />
+
+    <title>Tushar Gupta | Full Stack Developer & AI Engineer</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- AOS Animation Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ============ LOADER ============ -->
+    <div id="loader">
+      <div class="loader-content">
+        <div class="loader-circle"></div>
+        <p class="loader-text">Loading...</p>
+      </div>
+    </div>
+
+    <!-- ============ PARTICLES BACKGROUND ============ -->
+    <div id="particles-bg"></div>
+
+    <!-- ============ NAVIGATION ============ -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-name">TUSHAR</span>
+          <span class="logo-accent">GUPTA</span>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <a href="assets/resume/resume.pdf" download class="nav-resume-btn">
+              <i class="fas fa-download"></i> Resume
+            </a>
+          </li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting" data-aos="fade-up" data-aos-delay="100">
+            👋 Hello, I'm
+          </p>
+          <h1 class="hero-name" data-aos="fade-up" data-aos-delay="200">
+            Tushar <span class="highlight">Gupta</span>
+          </h1>
+          <div class="hero-title" data-aos="fade-up" data-aos-delay="300">
+            <span class="typed-text" id="typed-text"></span>
+            <span class="cursor">|</span>
+          </div>
+          <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+            Full Stack Developer & AI Engineer with
+            <strong>3.5+ years</strong> of experience building scalable backend
+            systems and AI-powered automation platforms. Based in
+            <strong>Noida, India</strong> 🇮🇳
+          </p>
+
+          <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+            <div class="stat">
+              <span class="stat-number">3.5+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Users Served</span>
+            </div>
+          </div>
+
+          <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-envelope"></i> Hire Me
+            </a>
+            <a href="#experience" class="btn btn-secondary">
+              <i class="fas fa-briefcase"></i> My Work
+            </a>
+            <a href="assets/resume/resume.pdf" download class="btn btn-outline">
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+
+          <div class="hero-social" data-aos="fade-up" data-aos-delay="700">
+            <a
+              href="https://linkedin.com/in/thetushargupta"
+              target="_blank"
+              class="social-icon"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/theTushhar"
+              target="_blank"
+              class="social-icon"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="mailto:thetushara1@gmail.com"
+              class="social-icon"
+              title="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <!-- <a href="tel:+912323232323" class="social-icon" title="Phone">
+              <i class="fas fa-phone"></i>
+            </a> -->
+          </div>
+        </div>
+
+        <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+          <div class="image-wrapper">
+            <div class="image-ring ring-1"></div>
+            <div class="image-ring ring-2"></div>
+            <div class="image-ring ring-3"></div>
+            <img
+              src="assets/images/profile.jpg"
+              alt="Tushar Gupta"
+              class="profile-img"
+            />
+            <div class="image-badge">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+
+          <div
+            class="floating-card card-1"
+            data-aos="fade-left"
+            data-aos-delay="600"
+          >
+            <i class="fab fa-node-js"></i>
+            <span>Node.js</span>
+          </div>
+          <div
+            class="floating-card card-2"
+            data-aos="fade-right"
+            data-aos-delay="700"
+          >
+            <i class="fab fa-python"></i>
+            <span>Python AI</span>
+          </div>
+          <div
+            class="floating-card card-3"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
+            <i class="fab fa-react"></i>
+            <span>React.js</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <a href="#about">
+          <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+          </div>
+          <span>Scroll Down</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Get To Know Me</span>
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-col" data-aos="fade-right">
+            <div class="about-img-wrapper">
+              <img src="assets/images/profile.jpg" alt="Tushar Gupta" />
+              <div class="about-img-overlay">
+                <div class="about-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Noida, India</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-info-cards">
+              <div class="info-card">
+                <i class="fas fa-user-tie"></i>
+                <div>
+                  <strong>Associate Developer</strong>
+                  <span>Info Origin Inc.</span>
+                </div>
+              </div>
+              <div class="info-card">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <strong>MCA Graduate</strong>
+                  <span>Amrita Institute</span>
+                </div>
+              </div>
+              <div class="info-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>Noida, UP, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content-col" data-aos="fade-left">
+            <h3>
+              Full Stack Developer & <span class="highlight">AI Engineer</span>
+            </h3>
+            <p class="about-desc">
+              I'm a passionate Full Stack Developer and AI Engineer with
+              <strong>3 years 6 months</strong> of professional experience in
+              building scalable backend systems and AI-powered automation
+              platforms.
+            </p>
+            <p class="about-desc">
+              Currently working as an
+              <strong>Associate Developer at Info Origin Inc.</strong>, I
+              specialize in developing AI agents using
+              <strong>LangChain & LangGraph</strong>, building robust REST APIs
+              with <strong>NestJS & Node.js</strong>, and creating seamless
+              frontend experiences with <strong>React.js</strong>.
+            </p>
+            <p class="about-desc">
+              I'm deeply passionate about
+              <strong>Artificial Intelligence</strong> and how it can transform
+              software development. My goal is to bridge the gap between
+              traditional software engineering and modern AI capabilities.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Multi-agent AI workflow development</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Scalable microservices architecture</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Cloud deployments with AWS & Kubernetes</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>LLM integration & AI automation</span>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Let's Talk
+              </a>
+              <a
+                href="assets/resume/resume.pdf"
+                download
+                class="btn btn-outline"
+              >
+                <i class="fas fa-file-alt"></i> Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">What I Know</span>
+          <h2 class="section-title">
+            Technical <span class="highlight">Skills</span>
+          </h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-categories" data-aos="fade-up">
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"
+                ><i class="fab fa-js"></i> JavaScript</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-code"></i> TypeScript</span
+              >
+              <span class="skill-tag"
+                ><i class="fab fa-python"></i> Python</span
+              >
+              <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+            </div>
+          </div>
+
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="150">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3>Backend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"
+                ><i class="fab fa-node-js"></i> Node.js</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-layer-group"></i> NestJS</span
+              >
+              <span class="skill-tag"><i class="fas fa-bolt"></i> FastAPI</span>
+              <span class="skill-tag"
+                ><i class="fas fa-leaf"></i> Spring Boot</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-exchange-alt"></i> REST APIs</span
+              >
+            </div>
+          </div>
+
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"
+                ><i class="fab fa-react"></i> React.js</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-layer-group"></i> Next.js</span
+              >
+              <span class="skill-tag"
+                ><i class="fab fa-angular"></i> Angular</span
+              >
+              <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="skill-tag"
+                ><i class="fab fa-css3-alt"></i> CSS3</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="skill-category featured-category"
+            data-aos="fade-up"
+            data-aos-delay="250"
+          >
+            <div class="category-header">
+              <div class="category-icon ai-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3>AI & Machine Learning <span class="new-badge">HOT</span></h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag ai-tag"
+                ><i class="fas fa-robot"></i> Large Language Models</span
+              >
+              <span class="skill-tag ai-tag"
+                ><i class="fas fa-link"></i> LangChain</span
+              >
+              <span class="skill-tag ai-tag"
+                ><i class="fas fa-project-diagram"></i> LangGraph</span
+              >
+              <span class="skill-tag ai-tag"
+                ><i class="fas fa-users-cog"></i> AI Agents</span
+              >
+              <span class="skill-tag ai-tag"
+                ><i class="fas fa-microchip"></i> MCP Architecture</span
+              >
+            </div>
+          </div>
+
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"
+                ><i class="fas fa-database"></i> MySQL</span
+              >
+              <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="350">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fab fa-aws"></i>
+              </div>
+              <h3>Cloud & DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+              <span class="skill-tag"
+                ><i class="fab fa-docker"></i> Docker</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-dharmachakra"></i> Kubernetes</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-sync-alt"></i> CI/CD</span
+              >
+              <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+              <span class="skill-tag"
+                ><i class="fas fa-tools"></i> Jenkins</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE SECTION ============ -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">My Journey</span>
+          <h2 class="section-title">
+            Work <span class="highlight">Experience</span>
+          </h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience 1 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-marker">
+              <div class="marker-dot current"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3 class="job-title">Associate Developer</h3>
+                  <span class="current-badge">Current</span>
+                </div>
+                <div class="company-info">
+                  <span class="company-name">
+                    <i class="fas fa-building"></i> Info Origin Inc.
+                  </span>
+                  <span class="job-location">
+                    <i class="fas fa-map-marker-alt"></i> Noida, Uttar Pradesh
+                  </span>
+                </div>
+                <div class="job-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>May 2025 – Present</span>
+                  <span class="duration-badge">Current</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="achievement-grid">
+                  <div class="achievement-item ai-achievement">
+                    <i class="fas fa-robot"></i>
+                    <p>
+                      Developed AI-powered test automation platform using
+                      <strong>Python, LangChain, LangGraph, and LLMs</strong>
+                    </p>
+                  </div>
+                  <div class="achievement-item ai-achievement">
+                    <i class="fas fa-project-diagram"></i>
+                    <p>
+                      Designed <strong>multi-agent AI workflows</strong> for
+                      predictive test prioritization reducing testing time
+                    </p>
+                  </div>
+                  <div class="achievement-item ai-achievement">
+                    <i class="fas fa-sitemap"></i>
+                    <p>
+                      Built <strong>MCP-style architecture</strong> to
+                      orchestrate AI agents across automation pipelines
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-users"></i>
+                    <p>
+                      Developed Hackathon Management Platform backend using
+                      <strong>NestJS, TypeScript</strong> supporting
+                      <strong>500+ users</strong>
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>
+                      Implemented REST APIs, role-based access control, and
+                      <strong>JWT authentication</strong> systems
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fab fa-docker"></i>
+                    <p>
+                      Deployed applications using
+                      <strong>Docker & Kubernetes</strong> on AWS cloud
+                      infrastructure
+                    </p>
+                  </div>
+                </div>
+                <div class="tech-stack">
+                  <span class="tech">Python</span>
+                  <span class="tech">LangChain</span>
+                  <span class="tech">LangGraph</span>
+                  <span class="tech">NestJS</span>
+                  <span class="tech">React.js</span>
+                  <span class="tech">MongoDB</span>
+                  <span class="tech">Docker</span>
+                  <span class="tech">Kubernetes</span>
+                  <span class="tech">AWS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 1 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-marker">
+              <div class="marker-dot internship"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card internship-card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3 class="job-title">Full Stack Developer Intern</h3>
+                  <span class="internship-badge">Internship</span>
+                </div>
+                <div class="company-info">
+                  <span class="company-name">
+                    <i class="fas fa-building"></i> Info Origin Inc.
+                  </span>
+                  <span class="job-location">
+                    <i class="fas fa-map-marker-alt"></i> Noida, Uttar Pradesh
+                  </span>
+                </div>
+                <div class="job-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>Feb 2024 – Jul 2024</span>
+                  <span class="duration-badge">6 Months</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="achievement-grid">
+                  <div class="achievement-item">
+                    <i class="fas fa-vote-yea"></i>
+                    <p>
+                      Built <strong>Voting Management System</strong> using
+                      Angular, Spring Boot, MySQL handling
+                      <strong>1000+ votes</strong>
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <p>
+                      Developed
+                      <strong>ServiceNow Leave Management Application</strong>
+                      with workflow automation
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-database"></i>
+                    <p>
+                      Implemented <strong>database schema design</strong> and
+                      user authentication workflows
+                    </p>
+                  </div>
+                </div>
+                <div class="tech-stack">
+                  <span class="tech">Angular</span>
+                  <span class="tech">Spring Boot</span>
+                  <span class="tech">MySQL</span>
+                  <span class="tech">REST APIs</span>
+                  <span class="tech">ServiceNow</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 2 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="250">
+            <div class="timeline-marker">
+              <div class="marker-dot internship"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card internship-card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3 class="job-title">DevOps Intern</h3>
+                  <span class="internship-badge">Internship</span>
+                </div>
+                <div class="company-info">
+                  <span class="company-name">
+                    <i class="fas fa-building"></i> Spockcode Consultation &
+                    Services
+                  </span>
+                  <span class="job-location">
+                    <i class="fas fa-map-marker-alt"></i> Noida, Uttar Pradesh
+                  </span>
+                </div>
+                <div class="job-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>Feb 2024 – Jul 2024</span>
+                  <span class="duration-badge">6 Months</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="achievement-grid">
+                  <div class="achievement-item">
+                    <i class="fas fa-sync-alt"></i>
+                    <p>
+                      Configured <strong>CI/CD pipelines</strong> using Jenkins
+                      and GitHub Actions automating deployments
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fab fa-docker"></i>
+                    <p>
+                      Containerized applications using
+                      <strong>Docker</strong> reducing deployment time
+                      significantly
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-dharmachakra"></i>
+                    <p>
+                      Managed <strong>Kubernetes clusters</strong> for container
+                      orchestration improving scalability
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fab fa-aws"></i>
+                    <p>
+                      Implemented infrastructure monitoring using
+                      <strong>AWS CloudWatch & Prometheus</strong>
+                    </p>
+                  </div>
+                </div>
+                <div class="tech-stack">
+                  <span class="tech">Jenkins</span>
+                  <span class="tech">GitHub Actions</span>
+                  <span class="tech">Docker</span>
+                  <span class="tech">Kubernetes</span>
+                  <span class="tech">AWS CloudWatch</span>
+                  <span class="tech">Prometheus</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3 class="job-title">Programmer</h3>
+                </div>
+                <div class="company-info">
+                  <span class="company-name">
+                    <i class="fas fa-building"></i> Tata Consultancy Services
+                    (TCS)
+                  </span>
+                  <span class="job-location">
+                    <i class="fas fa-map-marker-alt"></i> Gurugram, Haryana
+                  </span>
+                </div>
+                <div class="job-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>September 2021 – November 2022</span>
+                  <span class="duration-badge">~1.2 Years</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="achievement-grid">
+                  <div class="achievement-item">
+                    <i class="fas fa-bug"></i>
+                    <p>
+                      Resolved <strong>100+ backend issues</strong> for Java
+                      Spring Boot enterprise systems
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-database"></i>
+                    <p>
+                      Developed REST APIs and performed
+                      <strong>MySQL database optimization</strong> reducing
+                      query time
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-users"></i>
+                    <p>
+                      Collaborated with
+                      <strong>cross-functional teams of 10+</strong> members to
+                      troubleshoot production issues
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-file-alt"></i>
+                    <p>
+                      Created technical documentation reducing
+                      <strong>new hire ramp-up time</strong>
+                    </p>
+                  </div>
+                </div>
+                <div class="tech-stack">
+                  <span class="tech">Java</span>
+                  <span class="tech">Spring Boot</span>
+                  <span class="tech">MySQL</span>
+                  <span class="tech">REST APIs</span>
+                  <span class="tech">Agile</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 3 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="350">
+            <div class="timeline-marker">
+              <div class="marker-dot internship"></div>
+            </div>
+            <div class="timeline-card internship-card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3 class="job-title">Java Full Stack Developer Intern</h3>
+                  <span class="internship-badge">Internship</span>
+                </div>
+                <div class="company-info">
+                  <span class="company-name">
+                    <i class="fas fa-building"></i> iNeuron Intelligence
+                  </span>
+                  <span class="job-location">
+                    <i class="fas fa-map-marker-alt"></i> Remote, India
+                  </span>
+                </div>
+                <div class="job-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>Oct 2022 – Oct 2023</span>
+                  <span class="duration-badge">1 Year</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="achievement-grid">
+                  <div class="achievement-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <p>
+                      Completed <strong>6-month intensive training</strong> in
+                      enterprise Java Full Stack development
+                    </p>
+                  </div>
+                  <div class="achievement-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <p>
+                      Built <strong>5+ projects</strong> using Spring Boot,
+                      Hibernate, Angular, and MySQL technologies
+                    </p>
+                  </div>
+                </div>
+                <div class="tech-stack">
+                  <span class="tech">Java</span>
+                  <span class="tech">Spring Boot</span>
+                  <span class="tech">Hibernate</span>
+                  <span class="tech">Angular</span>
+                  <span class="tech">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION SECTION ============ -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">
+            My <span class="highlight">Education</span>
+          </h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="edu-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="edu-content">
+              <span class="edu-degree">Master of Computer Applications</span>
+              <span class="edu-short">(MCA)</span>
+              <h3 class="edu-university">
+                Amrita Institute of Technology & Science
+              </h3>
+              <p class="edu-location">
+                <i class="fas fa-map-marker-alt"></i> Coimbatore, Tamil Nadu,
+                India
+              </p>
+              <div class="edu-year">
+                <i class="fas fa-calendar"></i>
+                <span>2023</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="edu-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="edu-content">
+              <span class="edu-degree">Bachelor of Computer Applications</span>
+              <span class="edu-short">(BCA)</span>
+              <h3 class="edu-university">
+                Inmantec Integrated Academy of Management & Technology
+              </h3>
+              <p class="edu-location">
+                <i class="fas fa-map-marker-alt"></i> Ghaziabad, Uttar Pradesh,
+                India
+              </p>
+              <div class="edu-year">
+                <i class="fas fa-calendar"></i>
+                <span>2021</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="education-card cert-card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="edu-icon cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="edu-content">
+              <span class="edu-degree">Certification</span>
+              <h3 class="edu-university">Full Stack Java Developer</h3>
+              <p class="edu-location">
+                <i class="fas fa-building"></i> iNeuron Intelligence
+              </p>
+              <div class="cert-features">
+                <span><i class="fas fa-check"></i> Java EE</span>
+                <span><i class="fas fa-check"></i> Spring Boot</span>
+                <span><i class="fas fa-check"></i> Angular</span>
+                <span><i class="fas fa-check"></i> MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">
+            Contact <span class="highlight">Me</span>
+          </h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            I'm currently open to new opportunities. Whether you have a
+            question, project idea, or just want to say hi — my inbox is always
+            open! 👋
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info" data-aos="fade-right">
+            <h3>Let's Connect</h3>
+            <p>
+              Feel free to reach out through any of these channels. I typically
+              respond within 24 hours.
+            </p>
+
+            <div class="contact-items">
+              <a href="mailto:thetushara332@gmail.com" class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-detail">
+                  <strong>Email</strong>
+                  <span>thetushara1@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- <a href="tel:+912323232323" class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-detail">
+                <strong>Phone</strong>
+                <span>+91-2323232323</span>
+              </div>
+            </a> -->
+
+              <a
+                href="https://linkedin.com/in/thetushargupta"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="contact-detail">
+                  <strong>LinkedIn</strong>
+                  <span>linkedin.com/in/thetushargupta</span>
+                </div>
+              </a>
+
+              <div class="contact-item no-link">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-detail">
+                  <strong>Location</strong>
+                  <span>Noida, Uttar Pradesh, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="availability-badge">
+              <div class="availability-dot"></div>
+              <span>Available for new opportunities</span>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper" data-aos="fade-left">
+            <!-- Service Unavailable Message -->
+            <div
+              style="
+                background: rgba(255, 107, 107, 0.1);
+                border: 1px solid rgba(255, 107, 107, 0.3);
+                color: #ff6b6b;
+                padding: 15px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                text-align: center;
+                font-weight: 600;
+              "
+            >
+              <i class="fas fa-exclamation-triangle"></i> Notice: The contact
+              service is currently under maintenance and not accepting messages.
+            </div>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <div class="input-wrapper">
+                  <i class="fas fa-user"></i>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <div class="input-wrapper">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <div class="input-wrapper">
+                  <i class="fas fa-tag"></i>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Project Discussion / Job Opportunity"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i class="fas fa-message"></i>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell me about your project or opportunity..."
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+              <div id="form-status" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="nav-logo">
+              <span class="logo-name">TUSHAR</span>
+              <span class="logo-accent">GUPTA</span>
+            </div>
+            <p>Full Stack Developer & AI Engineer</p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a href="https://linkedin.com/in/thetushargupta" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/theTushhar" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:thetushara332@gmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2025 Tushar Gupta. Built with
+            <i class="fas fa-heart" style="color: #e74c3c"></i> and lots of ☕
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" title="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
